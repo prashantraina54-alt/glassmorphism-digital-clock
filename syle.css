@@ -1,0 +1,159 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+background-image: url("bac.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.container{
+    height: 50vh;
+    width: 40vw;
+   display: flex;
+    border-width: 10px;
+  
+   backdrop-filter:blur(6px) ;
+   box-shadow: 0 20px 40px rgba(11, 13, 1, 0.818);
+border: 2px solid ;
+border-color: rgba(242, 254, 254, 0.24);
+
+
+background-color: hsla(190, 100%, 51%, 0.104);
+
+}
+.left{
+    height: 100%;
+    width: 50%;
+}
+.hrs{
+   height: 30%;
+font-size: 150px;
+   display: flex;
+   justify-items: center;
+   justify-content: center;
+   align-items: center;
+ color: #F5FBFF;
+
+margin-top: 10px;
+text-shadow: 0 0 6px rgba(245, 251, 255, 0.35);
+
+
+}
+.colon{
+height: 30%;
+   font-size: 150px;
+   display: flex;
+   justify-items: center;
+   justify-content: center;
+    align-items: center;
+color: #9EDFE0;
+opacity: 0.75;
+text-shadow: 0 0 6px rgba(245, 251, 255, 0.35);
+
+
+
+}
+.minutes{
+height: 40%;
+   font-size: 150px;
+   display: flex;
+   justify-items: center;
+   justify-content: center;
+    align-items: end;
+ color: #F5FBFF;
+text-shadow: 0 0 6px rgba(245, 251, 255, 0.35);
+
+
+}
+.right{
+    height: 100%;
+    width: 50%;
+ 
+}
+
+.date1{
+height: 7vh;
+display: flex;
+
+
+width: 200px;
+
+}
+.date{
+    height: 8vh;
+  display: flex;
+font-size: 60px;
+color: #C3E6EC;
+text-shadow: 0 0 6px rgba(245, 251, 255, 0.35);
+
+
+width: 37px;
+
+
+}
+.month{
+   height: 8vh;
+color: #C3E6EC;
+text-shadow: 0 0 6px rgba(245, 251, 255, 0.35);
+
+
+font-size: 65px;
+margin-left: 65px;
+width: 100px;
+}
+
+.year{ height:6vh;
+    font-size: 60px;
+    color: aliceblue;
+   text-shadow: 0 0 6px rgba(245, 251, 255, 0.35);
+
+
+}
+.day{
+ height: 8vh;
+ color: #8FBBC5;
+letter-spacing: 3px;
+text-shadow: 0 0 6px rgba(245, 251, 255, 0.35);
+
+font-size: 60px;
+
+
+
+
+
+}
+.ampm{
+    margin-top: 90px;
+    height: 8vh;
+    font-size: 80px;
+     color: #6FA3AD;
+letter-spacing: 4px;
+text-shadow: 0 0 6px rgba(245, 251, 255, 0.35);
+
+
+   
+}
+.sec{
+ height: 8vh;
+    font-size: 80px;
+  color: #9EDFE0;
+text-shadow: 0 0 6px rgba(245, 251, 255, 0.35);
+
+
+}
+
+ 
+
+
+
+
+
