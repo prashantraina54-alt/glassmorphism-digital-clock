@@ -16,12 +16,17 @@ let months=[
 
 setInterval(()=>{
 let time=new Date()
-hrs[0].innerHTML=time.getHours()
-minutes[0].innerHTML=time.getMinutes()
-date[0].innerHTML=time.getDate()
+let h=time.getHours()
+let m=time.getMinutes()
+let s=time.getSeconds()
+let d=time.getDate()
+// time=String(time).padStart(2,"0")
+hrs[0].innerHTML=String(h).padStart(2,"0")
+minutes[0].innerHTML=String(m).padStart(2,"0")
+date[0].innerHTML=String(d).padStart(2,"0")
 year[0].innerHTML=time.getFullYear()
 day[0].innerHTML=days[time.getDay()]
 month[0].innerHTML=months[time.getMonth()]
-sec[0].innerHTML=time.getSeconds()
+sec[0].innerHTML=String(s).padStart(2,"0")
 ampm[0].innerHTML=time.getHours()>12?"PM":"AM"    
 },1000)
